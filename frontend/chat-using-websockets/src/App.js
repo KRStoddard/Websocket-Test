@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-// import './App.css';
-import React, {Component} from 'react'
-import ConversationsList from './components/ConversationsList'
+import React, { Component } from 'react';
+// import './App.css'; <-- commented out for styling
+import ConversationsList from './components/ConversationsList';
 
 class App extends Component {
-  render(){
-    return(
+  render() {
+    return (
       <div className="App">
         <ConversationsList />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
